@@ -333,3 +333,98 @@ footer{
     }
 
 }
+/* PROJETO DESTAQUE */
+
+.project-feature{
+
+    width: 100%;
+
+    background: rgba(35, 35, 35, 0.75);
+
+    border: 1px solid rgba(0, 255, 136, 0.08);
+
+    border-radius: 25px;
+
+    padding: 50px;
+
+    transition: 0.3s;
+
+    overflow: hidden;
+}
+
+.project-feature:hover{
+
+    transform: translateY(-5px);
+
+    border-color: #00ff88;
+
+    box-shadow: 0 0 25px rgba(0, 255, 136, 0.08);
+}
+
+.project-text{
+
+    max-width: 700px;
+}
+
+.project-tag{
+
+    display: inline-block;
+
+    padding: 8px 16px;
+
+    border-radius: 30px;
+
+    background: rgba(0, 255, 136, 0.08);
+
+    border: 1px solid rgba(0, 255, 136, 0.2);
+
+    color: #00ff88;
+
+    margin-bottom: 20px;
+
+    font-size: 14px;
+}
+
+.project-feature h3{
+
+    font-size: 42px;
+
+    margin-bottom: 20px;
+
+    color: white;
+}
+
+.project-feature p{
+
+    color: #cfcfcf;
+
+    line-height: 1.8;
+
+    margin-bottom: 35px;
+}
+
+.project-button{
+
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    background: #00ff88;
+
+    color: black;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.project-button:hover{
+
+    transform: scale(1.05);
+
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+}
