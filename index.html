@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -16,22 +18,35 @@
 
     <header>
 
-        <nav>
+    <nav class="navbar">
 
-            <div class="logo">
-                Gabriel Odair
-            </div>
+        <a href="#" class="logo">
 
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#redes">Redes Sociais</a></li>
-            </ul>
+            Gabriel <span>Odair</span>
 
-        </nav>
+        </a>
 
-    </header>
+        <ul class="menu">
+
+            <li><a href="#sobre">Sobre</a></li>
+
+            <li><a href="#formacao">Formação</a></li>
+
+            <li><a href="#habilidades">Skills</a></li>
+
+            <li><a href="#projeto-destaque">Projetos</a></li>
+
+        </ul>
+
+        <a href="#redes" class="contact-btn">
+
+            Contato
+
+        </a>
+
+    </nav>
+
+</header>
 
     <!-- ALERT -->
 
@@ -43,25 +58,79 @@
 
     <section class="hero">
 
-        <div class="hero-content">
+        <div class="hero-left">
+
+            <span class="tag">
+                👋 Bem-vindo ao meu Portfólio
+            </span>
 
             <h1>
-                Olá, eu sou <span>Gabriel Odair</span>
+                Gabriel <span>Odair</span>
             </h1>
 
+            <h2>
+                Desenvolvedor Front-end
+            </h2>
+
             <p>
-                Sou formado em Análise e Desenvolvimento de Sistemas e atualmente estou em transição de carreira para a área de tecnologia.
-                Venho estudando desenvolvimento web com foco em HTML5, CSS3, JavaScript, Git e GitHub.
+                Formado em Análise e Desenvolvimento de Sistemas e apaixonado por criar experiências modernas para a Web
+                utilizando HTML, CSS, JavaScript e futuramente React.
             </p>
 
-            <a target="_blank" href="https://wa.me/5544988586621" class="btn">
-                Entrar em contato
-            </a>
+            <div class="hero-buttons">
+
+                <a href="#projeto-destaque" class="btn-primary">
+                    Ver Projetos
+                </a>
+
+                <a href="https://wa.me/5544988586621" target="_blank" class="btn-secondary">
+
+                    Contato
+
+                </a>
+
+            </div>
+            <div class="numbers">
+
+                <div>
+
+                    <h3>15+</h3>
+
+                    <span>Projetos</span>
+
+                </div>
+
+                <div>
+
+                    <h3>6+</h3>
+
+                    <span>Tecnologias</span>
+
+                </div>
+
+                <div>
+
+                    <h3>100%</h3>
+
+                    <span>Dedicação</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="photo">
+
+                <img src="imagens/perfil.png" alt="Gabriel">
+
+            </div>
 
         </div>
 
     </section>
-
     <!-- SOBRE -->
 
     <section id="sobre">
@@ -134,76 +203,99 @@
             Habilidades
         </h2>
 
-        <div class="skills">
+        <div class="skill">
 
-            <div class="skill">HTML5</div>
-            <div class="skill">CSS3</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Git</div>
-            <div class="skill">GitHub</div>
-            <div class="skill">Lógica de Programação</div>
-            <div class="skill">Responsabilidade</div>
-            <div class="skill">Organização</div>
-            <div class="skill">Engineering Prompt</div>
-             <div class="skill">UX/UI</div>
+            <i class="fab fa-html5"></i>
+
+            HTML5
+
+        </div>
+        <div class="skill"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill"><i class="fab fa-git-alt"></i> Git</div>
+        <div class="skill"><i class="fab fa-github"></i> GitHub</div>
+        <div class="skill">Lógica de Programação</div>
+        <div class="skill">Responsabilidade</div>
+        <div class="skill">Organização</div>
+        <div class="skill">Engineering Prompt</div>
+        <div class="skill">UX/UI</div>
 
         </div>
 
     </section>
     <!-- PROJETO EM DESTAQUE -->
 
-<section id="projeto-destaque">
+    <section id="projeto-destaque">
 
-    <h2 class="title">
-        Projeto em Destaque
-    </h2>
+        <h2 class="title">
+            Projeto em Destaque
+        </h2>
 
-    <div class="project-feature">
+        <div class="project-feature">
 
-        <div class="project-text">
+            <div class="project-text">
 
-            <span class="project-tag">
-                Projeto Real
-            </span>
+                <span class="project-tag">
+                    Projeto Real
+                </span>
 
-            <h3>
-                DarkCineTV
-            </h3>
+                <h3>
+                    DarkCineTV
+                </h3>
 
-            <p>
-                Plataforma desenvolvida para divulgação de sistema de filmes, séries e canais.
-                O projeto possui visual moderno, design responsivo e integração com vídeos,
-                WhatsApp e sistema automatizado de atendimento.
-            </p>
+                <p>
+                    Plataforma desenvolvida para divulgação de sistema de filmes, séries e canais.
+                    O projeto possui visual moderno, design responsivo e integração com vídeos,
+                    WhatsApp e sistema automatizado de atendimento.
+                </p>
 
-            <a 
-                target="_blank"
-                href="https://darkcinetv.com.br"
-                class="project-button">
+                <a target="_blank" href="https://darkcinetv.com.br" class="project-button">
 
-                Acessar Projeto
+                    Acessar Projeto
 
-            </a>
+                </a>
+
+            </div>
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
     <!-- REDES -->
 
     <section id="redes">
 
         <h2 class="title">
-            Redes Sociais
+
+            Conecte-se comigo
+
         </h2>
 
-        <div class="social">
+        <div class="social-icons">
 
-            <a target="_blank" href="https://www.linkedin.com/in/gabriel-odair-1b85ba211/">LinkedIn</a>
-            <a target="_blank" href="https://github.com/GabrielOdair">GitHub</a>
-            <a target="_blank" href="https://www.instagram.com/odair_200/">Instagram</a>
+            <a target="_blank" href="https://github.com/GabrielOdair">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+            <a target="_blank" href="https://www.linkedin.com/in/gabriel-odair-1b85ba211/">
+
+                <i class="fab fa-linkedin"></i>
+
+            </a>
+
+            <a target="_blank" href="https://instagram.com/odair_200">
+
+                <i class="fab fa-instagram"></i>
+
+            </a>
+
+            <a target="_blank" href="https://wa.me/5544988586621">
+
+                <i class="fab fa-whatsapp"></i>
+
+            </a>
 
         </div>
 
@@ -218,4 +310,8 @@
     </footer>
 
 </body>
+<div class="blur blur1"></div>
+<div class="blur blur2"></div>
+<div class="blur blur3"></div>
+
 </html>
