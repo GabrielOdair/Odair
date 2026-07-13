@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
@@ -69,7 +70,7 @@
             </h1>
 
             <h2>
-                Desenvolvedor Front-end
+                <span id="typing"></span>
             </h2>
 
             <p>
@@ -133,33 +134,70 @@
     </section>
     <!-- SOBRE -->
 
-    <section id="sobre">
+    <section id="projetos"class="hidden">
 
-        <h2 class="title">
-            Minha BIO
-        </h2>
+    <h2 class="title">
+        Meus Projetos
+    </h2>
 
-        <div class="cards">
+    <div class="projects">
 
-            <div class="card">
+        <!-- Projeto 1 -->
 
-                <h3>Sobre mim</h3>
+        <div class="project-card">
+
+           
+
+            <div class="project-info">
+
+                <h3>DarkCineTV</h3>
 
                 <p>
-                    Tenho 25 anos e experiência profissional na área operacional e logística,
-                    atuando com controle de cargas, conferência e documentação industrial.
-                    Hoje busco crescer profissionalmente na tecnologia.
+                    Plataforma desenvolvida para divulgação de filmes, séries e canais,
+                    com design moderno e responsivo.
                 </p>
+
+                <div class="tech">
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="buttons">
+
+                    <a
+                    target="_blank"
+                    href="https://darkcinetv.com.br">
+
+                    Ver Projeto
+
+                    </a>
+
+                    <a
+                    target="_blank"
+                    href="https://github.com/GabrielOdair">
+
+                    GitHub
+
+                    </a>
+
+                </div>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
     <!-- FORMAÇÃO -->
 
-    <section id="formacao">
+    <section id="formacao"class="hidden">
 
         <h2 class="title">
             Formação & Cursos
@@ -197,7 +235,7 @@
 
     <!-- HABILIDADES -->
 
-    <section id="habilidades">
+    <section id="habilidades"class="hidden">
 
         <h2 class="title">
             Habilidades
@@ -225,7 +263,7 @@
     </section>
     <!-- PROJETO EM DESTAQUE -->
 
-    <section id="projeto-destaque">
+    <section id="projeto-destaque"class="hidden">
 
         <h2 class="title">
             Projeto em Destaque
@@ -263,13 +301,13 @@
 
     <!-- REDES -->
 
-    <section id="redes">
+    <section id="redes"class="hidden">
 
-        <h2 class="title">
+        <h3 class="title">
 
             Conecte-se comigo
 
-        </h2>
+        </h3>
 
         <div class="social-icons">
 
@@ -308,10 +346,17 @@
         © 2026 - Gabriel Odair
 
     </footer>
+    <script src="js/scrollReveal.js"></script>
+    <script src="js/typing.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/scroll.js"></script>
+<script src="script.js"></script>
 
-</body>
+
 <div class="blur blur1"></div>
 <div class="blur blur2"></div>
 <div class="blur blur3"></div>
+</body>
+
 
 </html>

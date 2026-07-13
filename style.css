@@ -960,6 +960,134 @@ footer {
     font-weight: 600;
 
 }
+.projects{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:40px;
+
+}
+.project-card{
+
+    background:#222;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    border:1px solid rgba(255,255,255,.05);
+
+}
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+
+        0 15px 40px rgba(0,255,136,.15);
+
+}
+.project-card img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}.project-card:hover img{
+
+    transform:scale(1.08);
+
+}.project-info{
+
+    padding:30px;
+
+}.project-info h3{
+
+    color:#00ff88;
+
+    margin-bottom:15px;
+
+}.project-info p{
+
+    color:#cfcfcf;
+
+    line-height:1.7;
+
+}.tech{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin:25px 0;
+
+}.tech span{
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    background:#2d2d2d;
+
+    color:#00ff88;
+
+    font-size:14px;
+
+}.buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}.buttons a{
+
+    flex:1;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    background:#00ff88;
+.buttons a:hover{
+
+    box-shadow:
+
+        0 0 10px #00ff88,
+
+        0 0 30px #00ff88;
+
+}.navbar.scroll{
+
+background:#121212;
+
+box-shadow:
+
+0 15px 40px rgba(0,0,0,.45);
+
+border:1px solid rgba(0,255,136,.15);
+
+}
+    color:#111;
+
+    font-weight:bold;
+
+    transition:.4s;
+
+}
 /*==========================
 RESPONSIVIDADE
 ===========================*/
@@ -1125,5 +1253,22 @@ RESPONSIVIDADE
         font-size:24px;
 
     }
+
+}
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:all .8s ease;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
 
 }
