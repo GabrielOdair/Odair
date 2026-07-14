@@ -1,0 +1,33 @@
+@media (max-width: 768px){
+
+    .navbar{
+
+        width:95%;
+
+        padding:15px;
+
+        gap:15px;
+
+    }
+
+    .logo{
+
+        font-size:2rem;
+
+    }
+
+    .menu{
+
+        gap:12px;
+
+        font-size:15px;
+
+    }
+
+    .contact-btn{
+
+        padding:10px 22px;
+
+    }
+
+}
